@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Self_Learning\\DatingApp\\API\\API.csproj": {}
+    "D:\\Self_Learning\\DatingApp\\DatingApp\\API\\API.csproj": {}
   },
   "projects": {
-    "D:\\Self_Learning\\DatingApp\\API\\API.csproj": {
+    "D:\\Self_Learning\\DatingApp\\DatingApp\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Self_Learning\\DatingApp\\API\\API.csproj",
+        "projectUniqueName": "D:\\Self_Learning\\DatingApp\\DatingApp\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "D:\\Self_Learning\\DatingApp\\API\\API.csproj",
+        "projectPath": "D:\\Self_Learning\\DatingApp\\DatingApp\\API\\API.csproj",
         "packagesPath": "C:\\Users\\Ankit_Sharma28\\.nuget\\packages\\",
-        "outputPath": "D:\\Self_Learning\\DatingApp\\API\\obj\\",
+        "outputPath": "D:\\Self_Learning\\DatingApp\\DatingApp\\API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -45,6 +45,20 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0-preview.1.21102.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[6.0.0-preview.1.21102.2, )"
+            },
+            "SQLite": {
+              "target": "Package",
+              "version": "[3.13.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[5.6.3, )"
